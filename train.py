@@ -6,8 +6,8 @@ from sklearn.model_selection import train_test_split
 from bert import modeling, optimization, run_classifier, tokenization
 
 BERT_MODEL = "multi_cased_L-12_H-768_A-12"
-BERT_PRETRAINED_DIR = f"data/models/bert/multi_cased_L-12_H-768_A-12"
-OUTPUT_DIR = f"data/models/outputs"
+BERT_PRETRAINED_DIR = f"data/model/bert/multi_cased_L-12_H-768_A-12"
+OUTPUT_DIR = f"data/model/output"
 print(f"***** Model output directory: {OUTPUT_DIR} *****")
 print(f"***** BERT pretrained directory: {BERT_PRETRAINED_DIR} *****")
 
