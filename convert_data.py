@@ -11,8 +11,8 @@ def convert_train():
       "label": example["label"]*1,
       "id_1": idx*2,
       "id_2": idx*2 + 1,
-      "text": example["text"],
-      "question": example["question"]
+      "text": example["text"].rstrip(),
+      "question": example["question"].rstrip()
     }
     examples.append(temp)
 
@@ -28,7 +28,7 @@ def convert_test():
     temp = example.copy()
     del temp['paragraphs']
     for para in example["paragraphs"]:
-      temp["text"] = para["text"]
+      temp["text"] = para["text"].rstrip()
       temp["pid"] = para["id"]
       examples.append(temp.copy())
 
