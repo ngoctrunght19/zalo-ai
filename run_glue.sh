@@ -1,9 +1,9 @@
-export GLUE_DIR=/data/glue
+export GLUE_DIR=data/glue
 export TASK_NAME=MRPC
 
 python run_glue.py \
   --model_type bert \
-  --model_name_or_path bert-base-cased \
+  --model_name_or_path bert-base-multilingual-cased \
   --task_name $TASK_NAME \
   --do_train \
   --do_eval \

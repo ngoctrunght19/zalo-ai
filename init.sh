@@ -6,4 +6,4 @@ mkdir data/model/bert
 mkdir data/model/output
 
 mkdir data/glue
-mkdir data/glue/zalo
+mkdir data/glue/MRPC
