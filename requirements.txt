@@ -2,8 +2,4 @@ tensorflow==2.0.0
 bert-tensorflow==1.0.1
 numpy==1.16.4
 transformers
-tensorboardX
-tensorboard
-scikit-learn
-seqeval
 torch
