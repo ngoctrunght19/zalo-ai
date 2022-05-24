@@ -1,4 +1,4 @@
-tensorflow==2.0.0
+tensorflow==2.6.4
 bert-tensorflow==1.0.1
 numpy==1.16.4
 transformers
